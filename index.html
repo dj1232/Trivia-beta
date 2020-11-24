@@ -7,16 +7,27 @@
     <title></title>
 </head>
 <body>
-    <section class="index" id="index">
+    <section class="index " id="index">
         <header class="trivia-principal"><h1>Trivia app</h1></header>
         <main class="name-screen">
             <h2 class="main-form">Ingrese su nombre<h2>
-            <form>
-            <input type="text" placeholder="Diego Ayala" class="name-input">
-            <input type="submit" value="Listo!" class="submit-name">
-            </form>
+            
+            <input type="text" placeholder="Diego Ayala" class="name-input" id="name-input">
+            <button class="submit-name" id="ready">Listo!</button>
+            
         </main>
 
+    </section>
+    <section class="welcome ocult" id="welcome">
+        <header class="trivia-principal"><h1>Trivia app</h1></header>
+        <main class="selection">
+            <div class="container-shadow">
+                <h2 class="name-welcome" id="name">Bienvenido name</h2>
+                <h3 class="mode">Seleccione un modo de juego</h3>
+                <button class="btt-pc-option"> PC master race</button>
+                <button class="btt-anime-option">Anime fan</button>
+            </div>
+        </main>
     </section>
     
     <script src="logic.js"></script>

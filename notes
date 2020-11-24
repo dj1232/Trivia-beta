@@ -1,0 +1,6 @@
+-cd a tu carpeta
+-git init (para iniciar por primera vex el repo)
+-git add -A   (para añadir todo)
+-git commit -m "version" (aqui se crea tu comit, version local)
+-git remote add origin https:gdhks  (el link de tu repo el github, es para conectarse)
+-git push origin master (para mandar el commit a github)
